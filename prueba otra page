@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>"Tablas Contabilidad"</title>
+        <style>
+        #dinero{
+             background-color: rgb(20, 158, 41);
+        }
+        #cc{
+           background-color: orange;  
+        }
+       
+    </style>
+
+    </head>
+    <body>
+    
+        <h1 id="encabezado">Contabilidad de la casa.</h1>
+         <img href="https://es.khanacademy.org/computing/computer-programming/html-css/web-development-tools/a/using-the-browser-developer-tools">
+        
+        <ul>
+            <li>Fecha</li>
+            <li>Unidad</li>
+            <li>Libras</li>
+            <li>Concepto</li>
+            <li>Capital</li>
+            <li>Valor</li>
+            <li>Total.</li>
+        </ul>
+        
+        <h2 id="Diario">Efectivo y Equivalentes.</h2>
+        <p id="parrafos">Se ha hecho con fines didacticos para contabilidad.</p>
+        
+        <table id="tablas">
+            <thead>
+                <tr>
+                    <th>Fecha/</th>
+                    <th>Unidad/</th>
+                    <th>Libras/</th>
+                    <th>Concepto/</th>
+                    <th>Capital/</th>
+                    <th>Valor/</th>
+                    <th>Total.</th>
+                    
+                </tr>
+                
+            </thead>
+            <tbody id="datos">
+            
+                <tr>
+                
+                    <td>16/05</td>
+                    <td>----------</td>
+                    <td>----------</td>
+                    <td>Efectivo.</td>
+                    <td id="dinero">    $ 67.90</td>
+                    <td>-------</td>
+                    <td>$67.90</td>
+                </tr>                                                      
+                <tr>
+                
+                    <td>23/05</td>
+                    <td>----------</td>
+                    <td>----------</td>
+                    <td>Efectivo.</td>
+                    <td id="dinero">$ 7.22</td>
+                    <td>-------</td>
+                    <td id="total">$75.12</td>
+                </tr>
+                
+                
+                <tr>
+                <td>23/05</td>
+                    <td>5</td>
+                    <td>----------</td>
+                    <td id="comida">espagueti</td>
+                    <td id="cc">    $ 1.75</td>
+                    <td>$ 0.35</td>
+                    <td id="total">$73.87</td>
+                    </tr>
+                    
+                         <tr>
+                <td>23/05</td>
+                    <td>10</td>
+                    <td>----------</td>
+                    <td id="comida">Pan Frances</td>
+                    <td id="cc">    $ 0.50</td>
+                    <td id="valor">$ 0.05</td>
+                    <td id="total">$73.37</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>31/01</td>
+                        <td>----------</td>
+                        <td>----------</td>
+                        <td>----------</td>
+                        <td>----------</td>
+                        <td>----------</td>
+                        <td id="dinero">$ 40.00</td>
+                    </tr>
+            </tbody>
+             <tr>
+             <td>01/05/2020</td>
+             <td>----------</td>
+             <td>----------</td>
+             <td>----------</td>
+             <td id="dinero">$ 80.00</td>
+             <td>----------</td>
+             <td id="dinero">$ 120.00</td>
+             </tr>
+        </table>
+        
+    </body>
+</html>
